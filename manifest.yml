@@ -1,0 +1,7 @@
+---
+applications:
+- name: mycfapp01
+  buildpack: nodejs_buildpack
+  random-route: true
+  path: helloworld
+  memory: 128M
